@@ -21,6 +21,6 @@ Find your project in `dist/`
 
 learn
 -----
-[budo](https://github.com/mattdesl/budo)
-[browserify](http://browserify.org/)
-[browserify handbook](https://github.com/substack/browserify-handbook)
+* [budo](https://github.com/mattdesl/budo)
+* [browserify](http://browserify.org/)
+* [browserify handbook](https://github.com/substack/browserify-handbook)
