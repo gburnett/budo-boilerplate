@@ -1,0 +1,36 @@
+{
+  "name": "budo-boilerplate",
+  "version": "0.1.0",
+  "description": "boilerplate for a budo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo ./index.js --live -- -t browserify-css",
+    "clean": "rimraf ./dist/*",
+    "build": "npm run html & npm run js & npm run images",
+    "rebuild": "npm run clean && npm run build",
+    "html": "cp ./index.html ./dist/",
+    "js": "browserify ./index.js -t browserify-css | uglifyjs > ./dist/index.js",
+    "images": "cp ./favicon.ico ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gburnett/budo-boilerplate.git"
+  },
+  "keywords": [
+    "budo",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gburnett/budo-boilerplate/issues"
+  },
+  "private": true,
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "browserify-css": "^0.7.1",
+    "budo": "^5.1.4",
+    "rimraf": "^2.4.3",
+    "uglify-js": "^2.5.0"
+  }
+}
