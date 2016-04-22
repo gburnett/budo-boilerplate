@@ -27,9 +27,9 @@
   },
   "private": true,
   "devDependencies": {
-    "browserify": "^11.2.0",
-    "browserify-css": "^0.7.1",
-    "budo": "^5.1.4",
+    "browserify": "^13.0.0",
+    "browserify-css": "^0.9.1",
+    "budo": "^8.2.1",
     "rimraf": "^2.4.3",
     "uglify-js": "^2.5.0"
   }
