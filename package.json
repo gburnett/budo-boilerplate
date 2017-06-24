@@ -27,10 +27,10 @@
   },
   "private": true,
   "devDependencies": {
-    "browserify": "14.1.0",
-    "browserify-css": "0.10.0",
-    "budo": "9.4.7",
+    "browserify": "14.4.0",
+    "browserify-css": "0.10.1",
+    "budo": "10.0.3",
     "rimraf": "2.6.1",
-    "uglify-js": "2.8.14"
+    "uglify-js": "3.0.19"
   }
 }
